@@ -3,7 +3,7 @@ package com.fsc.TeamMikasaProject;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class MyActivity extends Activity {
+public class ControllerActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
