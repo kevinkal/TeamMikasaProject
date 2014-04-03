@@ -7,6 +7,6 @@
     <EditText
             android:layout_width="326dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText" android:text="Controller"
+            android:id="@+id/editText" android:text="Controller!"
             android:textColor="#ff22fd"/>
 </LinearLayout>
