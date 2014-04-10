@@ -10,7 +10,7 @@ import android.view.MenuItem;
 
 import java.util.prefs.Preferences;
 
-public class MyActivity extends Activity {
+public class ControllerActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
