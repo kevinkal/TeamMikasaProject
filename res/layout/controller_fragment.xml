@@ -15,7 +15,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/imageButton"
-            android:background="@drawable/attack_on_titan_weapon5_2"
+            android:background="@drawable/swords"
             android:layout_below="@+id/textView" android:layout_alignParentEnd="true"
             android:layout_marginRight="49dp"/>
     <ImageButton
