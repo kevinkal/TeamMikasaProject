@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/titan">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textColor="#1d29ff" android:text="CONTROLLER"
+            />
+    <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton"
+            android:background="@drawable/attack_on_titan_weapon5_2"
+            android:layout_below="@+id/textView" android:layout_alignParentEnd="true"
+            android:layout_marginRight="49dp"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:background="@drawable/up"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left" android:layout_below="@+id/imageButton2"
+            android:layout_toLeftOf="@+id/textView" android:background="@drawable/left"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4" android:layout_below="@+id/imageButton2"
+            android:layout_toRightOf="@+id/textView" android:background="@drawable/right"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/down" android:layout_below="@+id/imageButton4"
+            android:layout_centerHorizontal="true" android:background="@drawable/down"/>
+</RelativeLayout>
