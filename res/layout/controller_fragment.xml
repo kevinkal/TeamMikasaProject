@@ -15,27 +15,27 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/imageButton"
-            android:background="@drawable/swords"
+            android:background="@drawable/RacistWhiteSwords"
             android:layout_below="@+id/textView" android:layout_alignParentEnd="true"
             android:layout_marginRight="49dp"/>
     <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton2" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
-            android:background="@drawable/up"/>
+            android:background="@drawable/upArrow"/>
     <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/left" android:layout_below="@+id/imageButton2"
-            android:layout_toLeftOf="@+id/textView" android:background="@drawable/left"/>
+            android:layout_toLeftOf="@+id/textView" android:background="@drawable/LeftArrow"/>
     <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton4" android:layout_below="@+id/imageButton2"
-            android:layout_toRightOf="@+id/textView" android:background="@drawable/right"/>
+            android:layout_toRightOf="@+id/textView" android:background="@drawable/RightArrow"/>
     <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/down" android:layout_below="@+id/imageButton4"
-            android:layout_centerHorizontal="true" android:background="@drawable/down"/>
+            android:layout_centerHorizontal="true" android:background="@drawable/DownArrow"/>
 </RelativeLayout>
