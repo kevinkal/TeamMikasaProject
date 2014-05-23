@@ -1,7 +1,12 @@
 package com.fsc.TeamMikasaProject;
+        import android.os.Bundle;
+        import android.preference.PreferenceFragment;
 
-/**
- * Created by student on 4/29/14.
- */
-public class PreferencesFragment {
+public class PreferencesFragment extends PreferenceFragment {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.layout.fragment_preferences);
+    }
 }

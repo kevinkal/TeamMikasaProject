@@ -1,7 +1,11 @@
 package com.fsc.TeamMikasaProject;
 
-/**
- * Created by student on 4/29/14.
- */
-public class PreferencesActivity {
+import android.os.Bundle;
+import android.preferences.PreferenceAvtivity;
+public class PreferencesActivity extends PreferencesActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_preference);
+    }
 }
